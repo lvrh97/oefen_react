@@ -14,7 +14,7 @@ export default function Counter(){
 
     return(
       
-        <button class='btn p-2 m-4 button' onClick={increaseCount} >You clicked the button {Count} times!</button>
+        <button className='bg-[#E17000] p-2 m-4 rounded-md text-white' onClick={increaseCount}>You clicked {Count} times!</button>
       
     )
 }
