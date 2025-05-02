@@ -6,9 +6,9 @@ import 'maplibre-gl/dist/maplibre-gl.css';
 export default function Map() {
   const mapContainer = useRef(null);
   const map = useRef(null);
-  const lng = 139.753;
-  const lat = 35.6844;
-  const zoom = 14;
+  const lng = 5.646;
+  const lat = 52.101;
+  const zoom = 6.5;
   const API_KEY = 'slGgf261j8f1Iw0bMTPA';
 
   useEffect(() => {
